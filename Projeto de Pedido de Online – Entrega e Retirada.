@@ -1,0 +1,67 @@
+Projeto de Pedido de Online – Entrega e Retirada.
+
+O sistema terá como funções os seguintes módulos.
+
+- Registro do Pedido.
+Visão (Android, Web – visão móbil)
+Nível de usuário: Cliente, Funcionário, Pedido Autônomo (Um cliente sem cadastro no sistema).
+
+- Workflow do Pedido
+Visão (Android, Web – visão móbil)
+Nível de usuário: Cliente, Funcionário.
+
+- Cancelamento do Pedido
+Visão (Android, Web – visão móbil)
+Nível de usuário: Cliente, Funcionário.
+Regras: Utilizar uma regra de negocio para validar uso 
+
+- Cadastro de Combos
+Visão (Web – visão móbil)
+Nível de usuário: Funcionário.
+
+
+
+
+- Cadastro de Pedido Favorito
+Visão (Web – visão móbil)
+Nível de usuário: Cliente.
+
+- NF
+Visão (Web – visão móbil)
+Nível de usuário: Cliente, Funcionário.
+
+- Registro do Cliente.
+Visão (Android, Web – visão móbil)
+Nível de usuário: Cliente, Funcionário.
+
+- Nível de Segurança (Funcionário).
+Visão (Web – visão móbil)
+Nível de usuário: Funcionário.
+Caso a empresa não possua um sistema de rh, poderá utilizar um cadastro de Funcionário do sistema, caso possua apenas vai modular os níveis de acordo com cargo e acesso para Funcionário/Usuário do Sistema.
+
+- BI.
+Visão (Web – visão móbil)
+Nível de usuário: Funcionário.
+Modulo para gerar valores de pre vendas e pos vendas, financias e organizar equipes para suprir cargos de elevados de demandas de serviços.
+O sistema tem a visão de interagir com a base de produtos oferecido pela empresa para montar um pedido online, usando através de webServices para integrações com a base legado das informações.
+
+Caso  a empresa possua uma base de cadastro de clientes também usaremos webServices para integrações com a base legado das informações.
+
+Com uma visão de integrar valor e oferecer uma plataforma de serviços feito por Funcionários, o registro do Pedido, o sistema para acesso com Funcionário da empresa terá acesso a base legado para utilizar essas informações, usaremos webServices para integrações com a base legado das informações.
+
+Licença do Sistema.  
+Usaremos um modulo de licença da parte de vendas para organizarmos o acesso ao sistema.
+
+
+Proposta para equipe.
+Primeiro Passo
+Criarmos os legados, 
+- Controller do Produto (DAO, Estoque)
+- Cadastro do Funcionário.
+
+Utilizando JSF, JPA. (Apenas simulando um sistema legado da empresa)
+Trabalhar em equipe, previsão do dia 22/01 até 24/01 local Fiap paulista
+
+Segundo passo
+
+Reunirmos a equipe para discutir o segundo passo.
